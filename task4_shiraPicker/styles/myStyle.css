@@ -1,0 +1,174 @@
+body {
+    direction: rtl;
+    background:url('../images/pexels-photo-403571 (2).jpeg') center no-repeat  top;
+    background-image:url('../images/pexels-photo-403571 (2).jpeg') ;
+   
+    
+
+}
+
+{
+    display: inline-flex;
+}
+     
+div#container {
+  
+    width: 960px;
+    margin: 0 auto;
+}
+div#ABC    {
+
+    margin:30px;
+
+ }
+
+ul{
+    list-style:none;
+    
+}
+nav ul  {
+            margin-right:250px;
+    
+}
+
+    nav ul li a {
+        font-family: Calibri;
+        font-weight: bold;
+        background: center;
+        border-radius: 10px;
+        display: block;
+        background-color: orange;
+        color: white;
+        width: 120px;
+        height: 30px;
+        padding-top: 10px;
+        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+        float: right;
+    }
+
+        nav ul li a:hover {
+            background-color:darkgreen;
+        }
+
+        nav ul li a:active {
+            background-color: green;
+        }
+h1{
+
+    font-size: 60px;
+    background-position:center;
+    font-family: Calibri;
+    color: darkgreen;
+    text-align: center;
+  
+}
+h3 {
+    font-size: 50px;
+    text-align: center;
+    color: darkslategrey;
+    font-family: Calibri;
+  
+   
+}
+p {
+    font-size: 20px;
+    text-align: center;
+    font-family: Calibri;
+    color: darkslateblue;
+    font-weight:bold;
+   
+}
+    h2::first-letter  {
+      color:sandybrown;
+      font-size:55px;
+
+    }
+       h2{
+        font-family:Calibri;
+        font-size:50px;
+        color:forestgreen;
+        text-align:center;
+
+    }
+
+.fa {
+    padding: 20px;
+    font-size: 60px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    margin-right:50px;
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+    .fa::after {
+ 
+    content: " ";
+    background: sandybrown;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.fa:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+
+
+
+
+.fa {
+    opacity: 0.7;
+}
+
+.fa-facebook{
+    background: #ffffff;
+    color: orange;
+  
+}
+
+
+
+.fa-google{
+    background: #ffffff;
+    color: orange;
+
+}
+div#fun ul li{
+   
+    margin-top:100px;
+    text-align:center;
+    font-family:Calibri;
+    font-size: 30px;
+
+}
+  
+div#ABB {
+    margin:100px;
+
+
+}
